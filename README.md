@@ -1,1 +1,0 @@
-## Harrigan Davenport CV
