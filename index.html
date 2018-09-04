@@ -43,38 +43,57 @@
                     <h3 class="masthead-brand">Harrigan Davenport</h3>
                     <nav>
                         <ul class="nav masthead-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="resume.html">Resume</a></li>
+                            <li class="active"><a href="#">Resume</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-            <body class="page_bg">
-            <?php
-$myFile = '/aboutMe.txt';
-if (!file_exists($myFile)) {
-  echo 'File not found';
-}
-else if(!$fh = fopen($myFile, 'w')) {
-  echo 'Can\'t open file';
-}
-else {
-  echo 'Success open file';
-}
-?>
-            </body>
+            <br /><br /><br /> <br /><br /><br />
+
+
             <div class="inner cover">
                 <h1 class="cover-heading">About Me </h1>
+                <p class="lead" align="left">
+                My name is Harrigan Davenport, a current student of The University of Canterbury in Christchurch New Zealand. <br />
+                    <br />
+                    <strong>Relevant Skills</strong> <br /><small>
+                    ● Very strong grasp of the Python (3.0) programming language for the implementation of networking <br />
+                    systems, advanced algorithms used for artificial intelligence, data analysis etc. <br />
+                    ● Experience using Stata for statistical analysis, as well as an understanding of econometrics concepts. <br />
+                    ● A good knowledge of C/C++, with practice using it to develop software for small embedded systems. <br />
+                    ● Experience with Object Oriented languages, specifically Java with knowledge of relevant tools. <br />
+                    ● Experience using machine learning libraries such as the WEKA tool kit. <br />
+                    ● A deep interest in micro/macro economics as well as financial markets. <br />
+                    ● Very strong communication skills, with experience working with students in a Residential Assistance
+                    (RA) role. <br /></small>
+                    <br />
+                    <strong>Education</strong> <br /><small>
+                    2013 – 2015 International Baccalaureate Diploma, International School Suva <br />
+                    Completed with a score of 37/45, including a 7 in both Physics and Maths. <br />
+                    2015 – 2017 Bachelor of Science, Majoring in Computer Science, University of Canterbury
+                    Completed courses on a variety of subjects <br />
+                    including general algorithms, embedded systems, network security, web design
+                    and artificial intelligence. Also completed related courses in statistics and
+                    discrete mathematics. <br />
+                    2018 – Present Graduate Diploma in Economics, University of Canterbury
+                    Expected to complete November 2018. Awarded direct entry into third year
+                    courses, due to high achievements in the BSc curriculum. Courses focused on
+                    general macroeconomics, as well as econometrics and big data analysis. I am
+                    undertaking this diploma to meet the requirements to study towards a Masters
+                    in Applied Economics and Finance in 2019. <br /></small>
+                    <br />
+                    <strong>Work Experience</strong> <br /><small>
+                    10/02/2018 – Present Residential Assistant, Campus Living Villages.
+                    Live in residential assistant with first year students at University of Canterbury. Received training in
+                    mentoring, mental health support and security. <br />
+                    2017 – 2018 Summer Research Scholarship, University of Canterbury. <br />
+                    Worked on a project using technology to enhance the training of software engineers. This involved a
+                    literature review as well as work with online APIs, natural language analysis and machine learning tool
+                    kits.
+                    11/2016 – 05/2017 Salesman – IT and Computers, JB-HiFi <br /></small>
                 <p class="lead">
-                    <?php
-$myfile = fopen("aboutMe.txt", "r") or die("Unable to open file!");
-echo fread($myfile,filesize("aboutMe.txt"));
-fclose($myfile);
-?>
-                <?php echo file_get_contents("aboutMe.txt");?>
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-default">Learn more</a>
+                    <!--<a href="#" class="btn btn-lg btn-default">Learn more</a>-->
                 </p>
             </div>
 
